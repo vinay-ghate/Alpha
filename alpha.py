@@ -17,15 +17,16 @@ def main():
 	print("/_/   \_\_____|_|   |_| |_/_/   \_\ ")
 	print(Fore.YELLOW)
 	print("------------------------------------------------------------")
+	print("------------------------------------------------------------")
 	print(Fore.RED)
 	
 	print("The Mini Projects Toolsbox with PyThon")
 	print(Fore.YELLOW)
-	menulist = "\n".join(["Project List", "1 : Handsome Test Based On Numbers", "2 : Check Leap Year", "3 : Strong Password Generator ", "4 : When You will Be 100yrs", "5 : Calculate Your Current Age", "6 : Currency Converter","7 : Draw Table Of Any Number", "8 : Find Roots of Quadratic Equations","9 : Guess The Number - Game ","10: Number Magic Trick" ]) #Menulist of main Programs in This scripy
+	menulist = "\n".join(["Project List", "1 : Handsome Test Based On Numbers", "2 : Check Leap Year", "3 : Strong Password Generator ", "4 : When You will Be 100yrs", "5 : Calculate Your Current Age", "6 : Currency Converter","7 : Draw Table Of Any Number", "8 : Find Roots of Quadratic Equations","9 : Guess The Number - Game ","10: Number Magic Trick"," ","Enter 100 to See My Info" ]) #Menulist of main Programs in This scripy
 	print("------------------------------------------------------------") #For Design
 	print(menulist) #showing menulist
 	print("------------------------------------------------------------")
-	print(Fore.BLUE)
+	print(Fore.CYAN)
 	chs = int(input("Enter Any Choice From Above List ]->> ")) #User Input To Run Next Script
 	print(Fore.GREEN)
 	print()
@@ -153,28 +154,46 @@ def main():
 		time.sleep(4)
 		print("Now Add Same Number Of your Friend In It ")
 		print()
-		time.sleep(4)
+		time.sleep(5)
 		print(" Now add {} in it ".format(magicn))
 		print()
+		time.sleep(5)
+		print("Now Divide Your Answer by 2")
 		time.sleep(4)
 		print("Just Give Your Friend his Number back \n means Just subtract number from your answer ")
 		print()
 		time.sleep(5)
 		print(" Now, I'm Guessing your answer.....")
 		time.sleep(4)
-		magicz = int(input(("I Guessed Your answer \n Enter 0 if you want see my guessed answer")))
+		magicz = int(input(("I Guessed Your answer \n Enter 0 if you want see my guessed answer |=> ")))
 		if magicz == 0:
 			print("Your Answer is {}".format(magicn/2))
 		time.sleep(4)
 		print()
-		magicr = int(input("Enter 1 if i Guess correct or 0 for wrong"))
+		magicr = int(input("Enter 1 if i Guess correct or 0 for wrong - "))
 		print()
 		if magicr == 1:
 			print("Thanks For Playing Our Game")
 		else:
 			print(" You Must Followed Wrong Step, Try again")
+	elif chs == 100:
+		print()
+		
+		print(Fore.GREEN)
+		print("------------------------------------------------------------")
+		print("------------------------------------------------------------")
+		print()
+		
+		print("# ¥ About Me ¥")
+		print("# Name    :- Vinay Ghate")
+		print("# Role    :- Creating Alpha")
+		print("# Educ.   :- Student")
+		print("# Email   :- ghatevinay2@gmail.com")
+		print("# Blog    :- www.droidgeniue.blogspot.com ")
+		
+		print(Fore.YELLOW)
 	print() #Add Options Before This
-	print("__________________________________________________________")
+	print("------------------------------------------------------------")
 	time.sleep(4)
 	print(Fore.YELLOW)
 	choise = int(input("Enter Any Even Number To Open Main menu again \n and Odd Number To End This program \n >>>"))
