@@ -12,9 +12,17 @@ In git install colorama module to run
 And On android
 
 Install Termux and enter following commands to run
+
+
 pkg install git
+
 pkg install python
+
 pkg install colorama
+
 git clone https://github.com/Vinay31g/Alpha
+
 cd Alpha
+
 python3 alpha.py
+.....
