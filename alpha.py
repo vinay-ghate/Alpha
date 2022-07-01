@@ -198,7 +198,7 @@ def main():
 	print(Fore.YELLOW)
 	choise = int(input("Enter Any Even Number To Open Main menu again \n and Odd Number To End This program \n >>>"))
 	time.sleep(4)
-	if (choise%2) ==0:
+	if (choise) >= 1:
 		os.system('cls||clear')
 		main()
 		print("########################################")
